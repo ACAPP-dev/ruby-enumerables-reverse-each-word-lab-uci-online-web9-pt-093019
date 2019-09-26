@@ -1,4 +1,4 @@
-def reverse_each_word(str)
+def reverse_each_word1(str)
   array_rev = []
   array1 = str.split(/ /)
   array1.each {|item| array_rev.push(item.reverse)}
@@ -8,4 +8,11 @@ end
 
 
 
-reverse_each_word("Hello there, and how are you?")
+reverse_each_word1("Hello there, and how are you?")
+
+def reverse_each_word2(str)
+  array_rev[]
+  array1 = str.split(/ /)
+  array1.collect {|item| item.reverse}
+  p array1
+end
