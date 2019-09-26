@@ -17,4 +17,4 @@ def reverse_each_word2(str)
   p array1
 end
 
-reverse_each_word2("")
+p reverse_each_word2("Hi again, just making sure it's reversed!)
