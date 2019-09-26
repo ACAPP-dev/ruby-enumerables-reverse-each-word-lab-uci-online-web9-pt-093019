@@ -8,7 +8,7 @@ end
 
 
 
-reverse_each_word1("Hello there, and how are you?")
+#reverse_each_word1("Hello there, and how are you?")
 
 def reverse_each_word2(str)
   array_rev[]
@@ -16,3 +16,5 @@ def reverse_each_word2(str)
   array1.collect {|item| item.reverse}
   p array1
 end
+
+reverse_each_word2("")
