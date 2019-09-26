@@ -11,10 +11,10 @@ end
 #reverse_each_word1("Hello there, and how are you?")
 
 def reverse_each_word2(str)
-  array_rev[]
+  array_rev = []
   array1 = str.split(/ /)
   p array1
-  # array1.collect {|item| array_rev.push(item.reverse)}
+   array1.collect {|item| array_rev.push(item.reverse)}
   #p array1
   p array_rev
 end
