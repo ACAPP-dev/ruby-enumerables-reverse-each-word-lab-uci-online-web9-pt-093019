@@ -13,8 +13,9 @@ end
 def reverse_each_word2(str)
   array_rev[]
   array1 = str.split(/ /)
-  array1.collect {|item| item.reverse}
+  array1.collect {|item| array_rev.push(item.reverse)}
   p array1
+  p array_rev
 end
 
 p reverse_each_word2("Hi again, just making sure it's reversed!")
